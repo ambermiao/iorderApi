@@ -6,46 +6,46 @@
     {
       "id": 1,
       "title": "日式",
-      "image": "category/japan.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/japan.svg",
       "is_index": 1
     },
     {
       "id": 2,
       "title": "美式",
-      "image": "category/burger.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/burger.svg",
       "is_index": 1
     },
     {
       "id": 3,
       "title": "中式",
-      "image": "category/rice.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/rice.svg",
       "is_index": 1
     },
     {
       "id": 4,
       "title": "早餐",
-      "image": "category/bread.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/bread.svg",
       "is_index": 1
     },
     {
       "id": 5,
       "title": "麵食",
-      "image": "category/noodles.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/noodles.svg",
       "is_index": 1
     }, {
       "id": 6,
       "title": "茶飲",
-      "image": "category/drink.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/drink.svg",
       "is_index": 1
     }, {
-      "id": 3,
+      "id": 7,
       "title": "咖啡",
-      "image": "category/coffee.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/coffee.svg",
       "is_index": 1
     }, {
-      "id": 4,
+      "id": 8,
       "title": "甜點",
-      "image": "category/cake.svg",
+      "image": "https://my-json-server.typicode.com/ambermiao/iorderApi/category/cake.svg",
       "is_index": 1
     }
   ]
