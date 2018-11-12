@@ -1,8 +1,28 @@
 {
   "member": [
-    
+    {
+      "name": "陳妙娟",
+      "email": "quest712139@gmail.com",
+      "password": "123456",
+      "phone": "0946578908",
+      "id": 1
+    },
+    {
+      "name": "aaa",
+      "email": "aaa@com.tw",
+      "password": "22222",
+      "phone": "0946578908",
+      "id": 2
+    },
+    {
+      "name": "amber",
+      "email": "bbb@com.tw",
+      "password": "1111",
+      "phone": "0946578908",
+      "id": 3
+    }
   ],
-  "tag":[
+  "tag": [
     {
       "id": 1,
       "title": "日式",
@@ -32,22 +52,505 @@
       "title": "麵食",
       "image": "https://image.flaticon.com/icons/svg/1046/1046799.svg",
       "is_index": 1
-    }, {
+    },
+    {
       "id": 6,
       "title": "茶飲",
       "image": "https://image.flaticon.com/icons/svg/1181/1181946.svg",
       "is_index": 1
-    }, {
+    },
+    {
       "id": 7,
       "title": "咖啡",
       "image": "https://image.flaticon.com/icons/svg/1153/1153111.svg",
       "is_index": 1
-    }, {
+    },
+    {
       "id": 8,
       "title": "甜點",
       "image": "https://image.flaticon.com/icons/svg/992/992754.svg",
       "is_index": 1
     }
   ],
-  "restaurant":[]
+  "location": [
+    {
+      "id": 1,
+      "title": "台北市"
+    },
+    {
+      "id": 2,
+      "title": "台中市"
+    },
+    {
+      "id": 3,
+      "title": "高雄市"
+    },
+    {
+      "id": 4,
+      "title": "新北市"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "title": "麥味登(台北中正店)",
+      "tag_id": [
+        "早餐",
+        "中式"
+      ],
+      "star": 6.5,
+      "work_time": "06:00~13:00",
+      "phone": "0956431245",
+      "location_id": "台北市",
+      "address": "台北市信義區忠孝東路5段524巷6號",
+      "is_index": 1,
+      "logo": "https://images2.imgbox.com/9a/bb/v80iooCJ_o.jpg",
+      "list_img": "https://images2.imgbox.com/d8/07/9cz9pxmV_o.jpg",
+      "restaurant_img": [
+        "https://images2.imgbox.com/13/95/SNiFD7RE_o.jpg",
+        "https://images2.imgbox.com/81/3d/HAcLF8qY_o.jpg",
+        "https://images2.imgbox.com/ae/6b/Y620eA7o_o.jpg",
+        "https://images2.imgbox.com/17/e9/PQHmDr8F_o.jpg"
+      ],
+      "menu": {
+        "category": [
+          {
+            "id": 1,
+            "title": "漢堡/湯種/滿分堡系列",
+            "content": "麵包種類：漢堡、湯種、滿分堡"
+          },
+          {
+            "id": 2,
+            "title": "丹麥堡/乳酪堡/貝果",
+            "content": "麵包種類 ：丹麥堡 、乳酪堡 、貝果"
+          },
+          {
+            "id": 3,
+            "title": "中西式系列",
+            "content": ""
+          },
+          {
+            "id": 4,
+            "title": "特餐系列",
+            "content": ""
+          },
+          {
+            "id": 5,
+            "title": "湯種特餐系列",
+            "content": "麵包可選丹麥、乳酪堡、貝果"
+          },
+          {
+            "id": 6,
+            "title": "烤果醬系列",
+            "content": "果醬可選擇花生、奶油、巧克力、草莓、香蒜、藍莓、奶酥"
+          },
+          {
+            "id": 7,
+            "title": "歐姆蛋系列",
+            "content": ""
+          },
+          {
+            "id": 8,
+            "title": "捲餅系列",
+            "content": ""
+          },
+          {
+            "id": 9,
+            "title": "沙拉系列",
+            "content": ""
+          },
+          {
+            "id": 10,
+            "title": "飲料",
+            "content": ""
+          },
+          {
+            "id": 11,
+            "title": "咖啡",
+            "content": ""
+          }
+        ],
+        "item": [
+          {
+            "id": 1,
+            "title": "火腿",
+            "content": "",
+            "category_id": 1,
+            "money": 25,
+            "image": "",
+            "choose_id": [1,2,3]
+          },
+          {
+            "id": 2,
+            "title": "鮮蔬",
+            "content": "",
+            "category_id": 1,
+            "money": 25,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 3,
+            "title": "肉鬆",
+            "content": "",
+            "category_id": 1,
+            "money": 25,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 4,
+            "title": "豬肉",
+            "content": "",
+            "category_id": 1,
+            "money": 30,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 5,
+            "title": "雙醬豬",
+            "content": "",
+            "category_id": 1,
+            "money": 30,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 6,
+            "title": "培根",
+            "content": "",
+            "category_id": 1,
+            "money": 35,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 7,
+            "title": "鮪魚",
+            "content": "",
+            "category_id": 1,
+            "money": 35,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 8,
+            "title": "鮮蛋沙拉",
+            "content": "美生菜、番茄、玉米、紫甘藍、葡萄乾、土豆和雞蛋以及苜蓿芽製成。",
+            "category_id": 1,
+            "money": 40,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 9,
+            "title": "歐姆蛋",
+            "content": "",
+            "category_id": 1,
+            "money": 40,
+            "image": "",
+            "choose_id": [
+              3
+            ]
+          },
+          {
+            "id": 10,
+            "title": "黑胡椒里肌",
+            "content": "",
+            "category_id": 1,
+            "money": 45,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 11,
+            "title": "檸檬雞",
+            "content": "",
+            "category_id": 1,
+            "money": 45,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 12,
+            "title": "火腿薯餅",
+            "content": "",
+            "category_id": 1,
+            "money": 45,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 13,
+            "title": "泡菜豬肉蛋",
+            "content": "",
+            "category_id": 1,
+            "money": 45,
+            "image": "",
+            "choose_id": [
+              2,
+              3
+            ]
+          },
+          {
+            "id": 14,
+            "title": "燻雞蛋",
+            "content": "",
+            "category_id": 1,
+            "money": 50,
+            "image": "",
+            "choose_id": [
+              2,
+              3
+            ]
+          },
+          {
+            "id": 15,
+            "title": "總匯",
+            "content": "",
+            "category_id": 1,
+            "money": 55,
+            "image": "",
+            "choose_id": [
+              2,
+              3
+            ]
+          },
+          {
+            "id": 16,
+            "title": "卡啦雞",
+            "content": "",
+            "category_id": 1,
+            "money": 60,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 17,
+            "title": "花生厚牛起士",
+            "content": "",
+            "category_id": 1,
+            "money": 65,
+            "image": "",
+            "choose_id": [
+              3
+            ]
+          },
+          {
+            "id": 18,
+            "title": "厚牛起司",
+            "content": "",
+            "category_id": 1,
+            "money": 65,
+            "image": "",
+            "choose_id": [
+              3
+            ]
+          },
+          {
+            "id": 19,
+            "title": "香雞",
+            "content": "",
+            "category_id": 1,
+            "money": 35,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 20,
+            "title": "黃金泡菜蔥抓餅",
+            "content": "",
+            "category_id": 2,
+            "money": 50,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "id": 14,
+            "title": "熱狗蛋餅",
+            "content": "",
+            "category_id": 2,
+            "money": 35,
+            "image": "",
+            "choose_id": [
+              1,
+              2,
+              3
+            ]
+          }
+        ],
+        "choose": [
+          {
+            "id": 1,
+            "title": "加蛋",
+            "money": 10,
+            "select_option": 1,
+            "option_id": [
+              1,2
+            ]
+          },
+          {
+            "id": 2,
+            "title": "加起司",
+            "money": 10,
+            "select_option": 1,
+            "option_id": [
+              1,
+              2
+            ]
+          },
+          { "id": 3, "title": "漢堡 / 湯種 / 滿分堡", "money": 0, "select_option": 7, "option_id": [7, 8,9] }
+        ],
+        "option": [
+          {
+            "id": 1,
+            "title": "否",
+            "money": 0,
+            "value": 0
+          },
+          {
+            "id": 2,
+            "title": "是",
+            "money": 0,
+            "value": 1
+          },
+          { "id": 3, "title": "正常冰", "money": 0},
+          {
+            "id": 4,
+            "title": "熱",
+            "money": 0
+          },
+          {
+            "id": 5,
+            "title": "去冰",
+            "money": 0
+          },
+          {
+            "id": 6,
+            "title": "少冰",
+            "money": 0
+          },
+          { "id": 7, "title": "漢堡", "money": 0 },
+          { "id": 8, "title": "湯種", "money": 0 },
+          { "id": 9, "title": "滿分堡", "money": 0 }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mr.38 咖哩 (台中一中店)",
+      "tag_id": [
+        "日式"
+      ],
+      "star": 7.2,
+      "work_time": "11:00~21:00",
+      "phone": "0956431245",
+      "location_id": "台中市",
+      "address": "台中市北區一中街109號",
+      "is_index": 1,
+      "logo": "https://images2.imgbox.com/9a/bb/v80iooCJ_o.jpg",
+      "list_img": "https://images2.imgbox.com/d8/07/9cz9pxmV_o.jpg",
+      "restaurant_img": [
+        "https://images2.imgbox.com/13/95/SNiFD7RE_o.jpg",
+        "https://images2.imgbox.com/81/3d/HAcLF8qY_o.jpg",
+        "https://images2.imgbox.com/ae/6b/Y620eA7o_o.jpg",
+        "https://images2.imgbox.com/17/e9/PQHmDr8F_o.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mr.38 咖哩 (台中一中店)",
+      "tag_id": [
+        "日式"
+      ],
+      "star": 7.2,
+      "work_time": "11:00~21:00",
+      "phone": "0956431245",
+      "location_id": "台中市",
+      "address": "台中市北區一中街109號",
+      "is_index": 1,
+      "logo": "https://images2.imgbox.com/9a/bb/v80iooCJ_o.jpg",
+      "list_img": "https://images2.imgbox.com/d8/07/9cz9pxmV_o.jpg",
+      "restaurant_img": [
+        "https://images2.imgbox.com/13/95/SNiFD7RE_o.jpg",
+        "https://images2.imgbox.com/81/3d/HAcLF8qY_o.jpg",
+        "https://images2.imgbox.com/ae/6b/Y620eA7o_o.jpg",
+        "https://images2.imgbox.com/17/e9/PQHmDr8F_o.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mr.38 咖哩 (台中一中店)",
+      "tag_id": [
+        "日式"
+      ],
+      "star": 7.2,
+      "work_time": "11:00~21:00",
+      "phone": "0956431245",
+      "location_id": "台中市",
+      "address": "台中市北區一中街109號",
+      "is_index": 1,
+      "logo": "https://images2.imgbox.com/9a/bb/v80iooCJ_o.jpg",
+      "list_img": "https://images2.imgbox.com/d8/07/9cz9pxmV_o.jpg",
+      "restaurant_img": [
+        "https://images2.imgbox.com/13/95/SNiFD7RE_o.jpg",
+        "https://images2.imgbox.com/81/3d/HAcLF8qY_o.jpg",
+        "https://images2.imgbox.com/ae/6b/Y620eA7o_o.jpg",
+        "https://images2.imgbox.com/17/e9/PQHmDr8F_o.jpg"
+      ]
+    }
+  ]
 }
